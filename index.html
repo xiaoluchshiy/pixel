@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>pixel art</title>
+		<link href="style.css" rel="stylesheet" />
+		<script src="script.js" defer></script>
+		<script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+		/>
+		<link
+			href="https://img.icons8.com/?size=100&id=SMD8PzZeIivy&format=png&color=000000"
+			rel="icon"
+			type="image/x-icon"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+	</head>
+
+	<body>
+		<div class="main">
+			<div class="main_text">
+				<div class="header">pixel art</div>
+				<div class="paragraph">попробуйте наш редактор пиксель артов</div>
+				<div><button id="btn_start">Начать</button></div>
+			</div>
+		</div>
+		<div class="canva">
+			<div class="canvas_page"></div>
+			<div class="controllers">
+				<input value="#FF0000" class="input btn" type="color" />
+				<button class="clear btn"><i class="fas fa-eraser"></i></button>
+				<button class="draw btn"><i class="fas fa-pencil-alt"></i></button>
+				<button class="reset btn"><i class="fas fa-undo-alt"></i></button>
+				<button class="btn save"><i class="fas fa-save"></i></button>
+				<button class="btn load"><i class="fas fa-file-image"></i></button>
+				<button class="btn fill"><i class="fas fa-fill-drip"></i></button>
+			</div>
+		</div>
+	</body>
+</html>
